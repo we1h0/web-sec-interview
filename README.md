@@ -31,12 +31,11 @@ demo.do?DATA=AjAxNg==
  - [ ] 请写出Mysql5数据库中查询库’helloworld’中’users’表所有列名的语句  
  - [ ] 下面这段代码存在漏洞吗？如果存在请说出存在什么漏洞并利用  
 > http://www.exp.com/1.php  
-
-> <?php  
-> $s_func = $_GET[‘s_func’];
-> $info = $_GET[‘info’];
-> $s_func($info);
-> ?>
+>     <?php  
+>     $s_func = $_GET[‘s_func’];
+>     $info = $_GET[‘info’];
+>     $s_func($info);
+>     ?>
 
 <br>
 
