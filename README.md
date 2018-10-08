@@ -6,7 +6,7 @@
  - [ ] java反序列化漏洞的原理?解决方案?
  - [ ] 如果一台服务器被入侵后,你会如何做应急响应?
  - [ ] 你平时使用哪些工具?以及对应工具的特点?
- - [ ] 如果遇到waf的情况下如何进行sql注入/上传Webshell/一句话木马被拦截怎么做？请写出曾经绕过WAF的经过(SQLi，XSS，上传漏洞选一) 
+ - [ ] 如果遇到waf的情况下如何进行sql注入/上传Webshell怎么做？请写出曾经绕过WAF的经过(SQLi，XSS，上传漏洞选一) 
   - [我的WafBypass之道（SQL注入篇）] https://xz.aliyun.com/t/368
   - [我的WafBypass之道（Upload篇）] https://xz.aliyun.com/t/337
   - [ 我的WafBypass之道（Misc篇）] https://xz.aliyun.com/t/265
@@ -30,9 +30,18 @@ demo.do?DATA=AjAxNg==
  - [ ] 说出XSS的三种类型，且在过滤”<>”号下如何绕过  
  - [ ] 请写出Mysql5数据库中查询库’helloworld’中’users’表所有列名的语句  
  - [ ] 下面这段代码存在漏洞吗？如果存在请说出存在什么漏洞并利用  
+ 
 > http://www.exp.com/1.php  
+
 > <?php  
+
 > $s_func = $_GET[‘s_func’];
+
 > $info = $_GET[‘info’];
+
 > $s_func($info);
+
 > ?>
+
+ - [ ] 菜刀被waf拦截后要怎么处理?
+ - [菜刀HTTP流量中转代理过WAF] https://xz.aliyun.com/t/2739
