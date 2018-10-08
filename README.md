@@ -25,4 +25,14 @@
  - [ ] 发现 demo.jsp?uid=110 注入点，你有哪几种思路获取 webshell，哪种是优选？ 
  - [ ] 以下链接存在 sql 注入漏洞，对于这个变形注入，你有什么思路？ 
 demo.do?DATA=AjAxNg== 
- - [ ] 
+ - [ ] CMD命令行如何查询远程终端开放端口
+ - [ ] 服务器为IIS+PHP+MySQL，发现root权限注入漏洞，讲讲你的渗透思路  
+ - [ ] 说出XSS的三种类型，且在过滤”<>”号下如何绕过  
+ - [ ] 请写出Mysql5数据库中查询库’helloworld’中’users’表所有列名的语句  
+ - [ ] 下面这段代码存在漏洞吗？如果存在请说出存在什么漏洞并利用  
+http://www.exp.com/1.php  
+<?php  
+$s_func = $_GET[‘s_func’];
+$info = $_GET[‘info’];
+$s_func($info);
+?
