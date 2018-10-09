@@ -69,3 +69,8 @@
  - [ ] 菜刀被waf拦截后要怎么处理?
  
       <a href="https://xz.aliyun.com/t/2739/">菜刀HTTP流量中转代理过WAF</a>
+   
+ - [ ] sqlmap如何对一个注入点注入?
+ 1. 如果是get型，直接，sqlmap -u “诸如点网址”. 
+ 2. 如果是post型，可以sqlmap -u “注入点网址” –data=”post的参数” 
+ 3. 如果是cookie，X-Forwarded-For等，可以访问的时候，用burpsuite抓包，注入处用*号替换，放到文件里，然后sqlmap -r “文件地址”
