@@ -78,13 +78,14 @@
  
  - [ ] 下面这段代码存在漏洞吗？如果存在请说出存在什么漏洞并利用  
  
-> http://www.exp.com/1.php  
->      <?php  
->      $s_func = $_GET[‘s_func’];
->      $info = $_GET[‘info’];
->      $s_func($info);
->      ?>
-
+ <code>
+ > http://www.exp.com/1.php  
+ >      <?php  
+ >      $s_func = $_GET[‘s_func’];
+ >      $info = $_GET[‘info’];
+ >      $s_func($info);
+ >      ?>
+ </code>
  - [ ] 菜刀被waf拦截后要怎么处理?
  
       <a href="https://xz.aliyun.com/t/2739/">菜刀HTTP流量中转代理过WAF</a>
