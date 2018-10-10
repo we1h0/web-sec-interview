@@ -8,20 +8,20 @@
  - [ ] 说说常见的中间件解析漏洞利用方式  
  
   - IIS 6.0
-   - /xx.asp/xx.jpg "xx.asp"是文件夹名
+    - /xx.asp/xx.jpg "xx.asp"是文件夹名
 
   - IIS 7.0/7.5
-   - 默认Fast-CGI开启，直接在url中图片地址后面输入/1.php，会把正常图片当成php解析
+    - 默认Fast-CGI开启，直接在url中图片地址后面输入/1.php，会把正常图片当成php解析
 
   - Nginx
-   - 版本小于等于0.8.37，利用方法和IIS 7.0/7.5一样，Fast-CGI关闭情况下也可利用。
-   - 空字节代码 xxx.jpg%00.php
+    - 版本小于等于0.8.37，利用方法和IIS 7.0/7.5一样，Fast-CGI关闭情况下也可利用。
+    - 空字节代码 xxx.jpg%00.php
 
   - Apache
-   - 上传的文件命名为：test.php.x1.x2.x3，Apache是从右往左判断后缀
+    - 上传的文件命名为：test.php.x1.x2.x3，Apache是从右往左判断后缀
 
   - lighttpd
-   - xx.jpg/xx.php，不全,请小伙伴们在评论处不吝补充，谢谢！
+    - xx.jpg/xx.php，不全,请小伙伴们在评论处不吝补充，谢谢！
 
  - [ ] php/java反序列化漏洞的原理?解决方案?
  
@@ -56,10 +56,10 @@
    - 开始检测漏洞，如XSS,XSRF,sql注入，代码执行，命令执行，越权访问，目录读取，任意文件读取，下载，文件包含， 
  远程命令执行，弱口令，上传，编辑器漏洞，暴力破解等 
   - 3）漏洞利用 
-   - 利用以上的方式拿到webshell，或者其他权限 
+    - 利用以上的方式拿到webshell，或者其他权限 
   - 4）权限提升 <br>
-   - 提权服务器，比如windows下mysql的udf提权，serv-u提权，windows低版本的漏洞，如iis6,pr,巴西烤肉， 
-   - linux脏牛漏洞，linux内核版本漏洞提权，linux下的mysql system提权以及oracle低权限提权 
+    - 提权服务器，比如windows下mysql的udf提权，serv-u提权，windows低版本的漏洞，如iis6,pr,巴西烤肉， 
+    - linux脏牛漏洞，linux内核版本漏洞提权，linux下的mysql system提权以及oracle低权限提权 
   - 5）日志清理 <br>
   - 6）总结报告及修复方案<br>
  
