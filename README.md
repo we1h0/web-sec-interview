@@ -44,7 +44,7 @@
  - 4）权限提升 <br>
  - 提权服务器，比如windows下mysql的udf提权，serv-u提权，windows低版本的漏洞，如iis6,pr,巴西烤肉， 
  - linux藏牛漏洞，linux内核版本漏洞提权，linux下的mysql system提权以及oracle低权限提权 
- - 5) 日志清理 <br>
+ - 5）日志清理 <br>
  - 6）总结报告及修复方案<br>
  
  - [ ] 谈一谈Windows系统与Linux系统提权的思路？  
