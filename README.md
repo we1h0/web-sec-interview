@@ -43,7 +43,7 @@
  - 利用以上的方式拿到webshell，或者其他权限 
  - 4）权限提升 <br>
  - 提权服务器，比如windows下mysql的udf提权，serv-u提权，windows低版本的漏洞，如iis6,pr,巴西烤肉， 
- - linux藏牛漏洞，linux内核版本漏洞提权，linux下的mysql system提权以及oracle低权限提权 
+ - linux脏牛漏洞，linux内核版本漏洞提权，linux下的mysql system提权以及oracle低权限提权 
  - 5）日志清理 <br>
  - 6）总结报告及修复方案<br>
  
@@ -79,12 +79,12 @@
  - [ ] 下面这段代码存在漏洞吗？如果存在请说出存在什么漏洞并利用  
  
  <code>
- > http://www.exp.com/1.php  
- >      <?php  
- >      $s_func = $_GET[‘s_func’];
- >      $info = $_GET[‘info’];
- >      $s_func($info);
- >      ?>
+    http://www.exp.com/1.php  
+       <?php  
+       $s_func = $_GET[‘s_func’];
+       $info = $_GET[‘info’];
+        $s_func($info);
+        ?>
  </code>
  - [ ] 菜刀被waf拦截后要怎么处理?
  
