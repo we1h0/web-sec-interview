@@ -80,8 +80,8 @@
  
  >     http://www.exp.com/1.php  
  >     <?php  
- >     $s_func = $_GET[‘s_func’];
- >     $info = $_GET[‘info’];
+ >     $s_func = $_GET['s_func'];
+ >     $info = $_GET['info'];
  >     $s_func($info);
  >     ?>
  
