@@ -25,7 +25,7 @@
  - [ ] 你都了解哪些sql 的bypass技巧
  - [ ] CRLF注入的原理
  - [ ] sqlmap如何对一个注入点注入?
-   - 如果是get型，直接，sqlmap -u “诸如点网址”. 
+   - 如果是get型，直接，sqlmap -u “注入点网址”. 
    - 如果是post型，可以sqlmap -u “注入点网址” –data=”post的参数” 
    - 如果是cookie，X-Forwarded-For等，可以访问的时候，用burpsuite抓包，注入处用*号替换，放到文件里，然后sqlmap -r “文件地址”
  - [ ] mysql的网站注入，5.0以上和5.0以下有什么区别？
