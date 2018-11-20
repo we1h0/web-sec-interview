@@ -106,6 +106,12 @@
     - xx.jpg/xx.php
 
  - 数据库
+ - [ ] mysql UDF提权5.1以上版本和5.1以下有什么区别,以及需要哪些条件?
+ - 1)Mysql版本大于5.1版本udf.dll文件必须放置于MYSQL安装目录下的lib\plugin文件夹下。
+ - 2)Mysql版本小于5.1版本。udf.dll文件在Windows2003下放置于c:\windows\system32，在windows2000下放置于c:\winnt\system32。
+ - 3)掌握的mysql数据库的账号有对mysql的insert和delete权限以创建和抛弃函数，一般以root账号为佳，具备`root账号所具备的权限的其它账号也可以。
+ - 4)可以将udf.dll写入到相应目录的权限。
+
  - [ ] mysql数据库默认有哪些库？说出库的名字
  - [ ] mysql的用户名密码是存放在那张表里面？mysql密码采用哪种加密方式？
  - [ ] mysql表权限里面，除了增删改查，文件读写，还有哪些权限？
@@ -128,6 +134,8 @@
  - [ ] DNS在渗透中的作用
  - [ ] 如何绕过CDN获取目标网站真实IP，谈谈你的思路？  
  
+    <a href="https://zhuanlan.zhihu.com/p/33440472">绕过CDN寻找网站真实IP的方法汇总</a>
+    
  - [ ] 如果给你一个网站,你的渗透测试思路是什么?
  在获取书面授权的前提下。 
  - 1)信息收集， 
