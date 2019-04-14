@@ -12,11 +12,11 @@
  
    * 如果遇到waf的情况下如何进行sql注入/上传Webshell怎么做？请写出曾经绕过WAF的经过(SQLi，XSS，上传漏洞选一) 
  
-    <a href="https://xz.aliyun.com/t/265/">我的WafBypass之道（SQL注入篇）</a>
+   <a href="https://xz.aliyun.com/t/265/">我的WafBypass之道（SQL注入篇）</a>
   
-    <a href="https://xz.aliyun.com/t/337/">我的WafBypass之道（Upload篇）</a>
+   <a href="https://xz.aliyun.com/t/337/">我的WafBypass之道（Upload篇）</a>
   
-    <a href="https://xz.aliyun.com/t/265/">我的WafBypass之道（Misc篇）</a>
+   <a href="https://xz.aliyun.com/t/265/">我的WafBypass之道（Misc篇）</a>
 
    * 谈一谈Windows系统与Linux系统提权的思路？  
  
@@ -252,22 +252,22 @@ H5新增了不少标签，在绕过xss防御方面多了不少选择。还有就
    * 如果给你一个网站,你的渗透测试思路是什么?
 
 在获取书面授权的前提下。 
-    > 1)信息收集， 
-     > 1，获取域名的whois信息,获取注册者邮箱姓名电话等。 
-     > 2，查询服务器旁站以及子域名站点，因为主站一般比较难，所以先看看旁站有没有通用性的cms或者其他漏洞。 
-     > 3，查看服务器操作系统版本，web中间件，看看是否存在已知的漏洞，比如IIS，APACHE,NGINX的解析漏洞 
-     > 4，查看IP，进行IP地址端口扫描，对响应的端口进行漏洞探测，比如 rsync,心脏出血，mysql,ftp,ssh弱口令等。 
-     > 5，扫描网站目录结构，看看是否可以遍历目录，或者敏感文件泄漏，比如php探针 
-     > 6，google hack 进一步探测网站的信息，后台，敏感文件
-    > 2）漏洞扫描 
+   > 1)信息收集， 
+    > 1，获取域名的whois信息,获取注册者邮箱姓名电话等。 
+    > 2，查询服务器旁站以及子域名站点，因为主站一般比较难，所以先看看旁站有没有通用性的cms或者其他漏洞。 
+    > 3，查看服务器操作系统版本，web中间件，看看是否存在已知的漏洞，比如IIS，APACHE,NGINX的解析漏洞 
+    > 4，查看IP，进行IP地址端口扫描，对响应的端口进行漏洞探测，比如 rsync,心脏出血，mysql,ftp,ssh弱口令等。 
+    > 5，扫描网站目录结构，看看是否可以遍历目录，或者敏感文件泄漏，比如php探针 
+    > 6，google hack 进一步探测网站的信息，后台，敏感文件
+   > 2）漏洞扫描 
      > 开始检测漏洞，如XSS,CSRF,SQL注入，代码执行，命令执行，越权访问，目录读取，任意文件读取，下载，文件包含， 远程命令执行，弱口令，上传，编辑器漏洞，暴力破解等 
-    > 3）漏洞利用 
-     > 利用以上的方式拿到webshell，或者其他权限 
-    > 4）权限提升 <br>
-     > 提权服务器，比如windows下mysql的udf提权，serv-u提权，windows低版本的漏洞，如iis6,pr,巴西烤肉， 
-     > linux脏牛漏洞，linux内核版本漏洞提权，linux下的mysql root提权以及oracle低权限提权 
-    > 5）日志清理 <br>
-    > 6）总结报告及修复方案<br>
+   > 3）漏洞利用 
+    > 利用以上的方式拿到webshell，或者其他权限 
+   > 4）权限提升 <br>
+    > 提权服务器，比如windows下mysql的udf提权，serv-u提权，windows低版本的漏洞，如iis6,pr,巴西烤肉， 
+    > linux脏牛漏洞，linux内核版本漏洞提权，linux下的mysql root提权以及oracle低权限提权 
+   > 5）日志清理 <br>
+   > 6）总结报告及修复方案<br>
 
    * 在渗透过程中，收集目标站注册人邮箱对我们有什么价值？
     > 丢社工库里看看有没有泄露密码，然后尝试用泄露的密码进行登录后台。
