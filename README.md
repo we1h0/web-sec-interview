@@ -71,24 +71,27 @@
     > 大概就是子域相同，主域不同的意思吧，可以通过在两房都设置document.domain来解决跨域。
    * 如何设置可以跨域请求数据？jsonp是做什么的？
     > 主域相同时跨域，可以像上面那样设置document.domain.
-
+    >
     > 主域不同时，可以通过jsonp，websocket，在服务端设置CORS进行跨域请求。H5新增window.postMessage方法解决跨域请求。
-
-
-通过<script>像服务器请求json数据，不受同源策略限制。
-
+    >
+    > 通过<script>像服务器请求json数据，不受同源策略限制。
 
    * jsonp的业务意义？
+   
 * Ajax
    * Ajax是否遵循同源策略？
     > ajax全名是Asynchronous JavaScript and XML ，异步的javascript和XML技术。遵循同源策略，但是可以通过jsonp等进行规避。
+    
    * JSON注入如何利用？
     > XSS跨站攻击
+    
+   * JSON和JSONP的区别？
    * JSONP劫持利用方式及修复方案？
 
 * 浏览器策略
    * 不同浏览器之间，安全策略有哪些不同，比如chrome，firefox，IE
     > 三种浏览器都遵循同源策略，内容安全策略(CSP), Cookie安全策略（httponly, Secure, Path）
+    
    * CSP是什么？如何设置CSP？
    > CSP：Content Security Policy，内容安全策略。是繁育XSS攻击的一种安全机制，其思想是以服务器白名单的形式来配置可信的内容来源，客户端Web应用代码可以使用这些安全来源。
 
