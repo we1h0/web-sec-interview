@@ -137,9 +137,9 @@
    > 具体可以参考这篇<a href="https://www.ibm.com/developerworks/cn/web/1102_niugang_csrf/index.html">CSRF攻击的CSRF攻击的应对之道</a>
    
   * CSRF、SSRF和重放攻击有什么区别？ 
-   * CSRF是跨站请求伪造攻击，由客户端发起 
-   * SSRF是服务器端请求伪造，由服务器发起 
-   * 重放攻击是将截获的数据包进行重放，达到身份认证等目的
+   > CSRF是跨站请求伪造攻击，由客户端发起 
+   > SSRF是服务器端请求伪造，由服务器发起 
+   > 重放攻击是将截获的数据包进行重放，达到身份认证等目的
 
 * SSRF
   * SSRF漏洞原理、利用方式及修复方案？Java和PHP的SSRF区别？
