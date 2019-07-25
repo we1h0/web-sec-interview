@@ -136,7 +136,7 @@
     > CSRF即跨站请求伪造，以受害者的身份向服务器发送一个请求。本质上个人觉得是服务端在执行一些敏感操作时候对提交操作的用户的身份校检不到位。
   * 防御CSRF都有哪些方法，JAVA是如何防御CSRF漏洞的，token一定有用么？
    > 防御CSRF一般是加上referer和csrf_token.
-   > 具体可以参考这篇<a href="https://www.ibm.com/developerworks/cn/web/1102_niugang_csrf/index.html">CSRF攻击的CSRF攻击的应对之道</a>
+   > 具体可以参考这篇<a href="https://www.ibm.com/developerworks/cn/web/1102_niugang_csrf/index.html">CSRF攻击的应对之道</a>
    
   * CSRF、SSRF和重放攻击有什么区别？ 
    > CSRF是跨站请求伪造攻击，由客户端发起 
